@@ -1,0 +1,42 @@
+h1 {
+    color: white;
+    font-size: 25;
+}
+
+*  {
+    border: solid;
+} 
+
+.item{
+margin-left: 20px;
+ margin-top:50px ;
+}
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    background-color: antiquewhite;
+}
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: azure
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
